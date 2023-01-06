@@ -50,12 +50,14 @@ section#main, section#blog {
   vertical-align: top;
 }
 
+
 aside {
   display: table-cell;
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
   vertical-align: top;
+  width: 30%;
 }
 
 footer {
@@ -99,7 +101,7 @@ nav {
 }
 nav ul {
 	margin: 0px;
-	list-style-type: none;
+	/* list-style-type: none; */
 	padding: 5px 0px 5px 0px;
 }
 nav ul li {
@@ -115,7 +117,7 @@ nav ul li a:link, nav ul li a:visited {
 	text-shadow: 1px 1px 3px #e2c2c2; 
 	text-transform: uppercase;
 */
-}
+ }
 nav ul li.selected {
 	background-color: #c8b99c;
-}
+} 
