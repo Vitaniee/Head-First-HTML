@@ -22,4 +22,40 @@ h2 {
 blockquote {
   font-style:      italic;
 }
-
+table {
+  margin: 0px 20px 0px 20px;
+  border: thin solid black;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+td,th {
+  border: thin dotted gray;
+  padding: 5px;
+}
+caption {
+  font-style: italic;
+  padding-top: 8px;
+}
+td.center {
+  text-align: center;
+}
+td.right{
+  text-align: right;
+}
+th {
+  background-color: #cc6600;
+}
+tr.cellcolor {
+  background-color: #fcba7a;
+}
+table td table th {
+  background-color: white;
+}
+li {
+  list-style-image: url(images/backpack.gif);
+  padding-top: 5px;
+  margin-left: 20px;
+}
+/* tr:nth-child(odd) {
+  background-color: #fcba7a;
+} */
